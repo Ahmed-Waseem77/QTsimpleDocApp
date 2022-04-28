@@ -1,0 +1,8 @@
+#include "Database"
+
+Database::Database(QObject *parent)
+    : QObject{parent}
+{
+public:
+    vector<Qstring> =
+}

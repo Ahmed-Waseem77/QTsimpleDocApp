@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>663</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>231</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="NameRegisLabel">
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="PasswordRegisLabel">
+       <property name="text">
+        <string>Password</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="BalanceRegisLabel">
+       <property name="text">
+        <string>Balance</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPlainTextEdit" name="NameRegisTxbx"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="AgeRegisLabel">
+       <property name="text">
+        <string>Age</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPlainTextEdit" name="BalanceRegisTxbx"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPlainTextEdit" name="AgeRegisTxbx"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPlainTextEdit" name="PasswordRegisTxbx"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButtonRegister">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>231</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RegisterationStateLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>231</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Registeration state</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LoginLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>101</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RegistrationLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>131</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Registeration</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="NameLogLabel">
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="PasswordLogLabel">
+       <property name="text">
+        <string>Password</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPlainTextEdit" name="PasswordLogTxbx"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPlainTextEdit" name="NameLogTxbx"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButtonLogin">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>231</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PasswordStateLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>450</y>
+      <width>231</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="RechargeTxBx">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonRecharge">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>510</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Recharge</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ReservationOptionsLabel">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>20</y>
+      <width>211</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Reservation Options</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>70</y>
+      <width>191</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Barbary</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ahmed</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bavly</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ali</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="DrFeesLabel">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>110</y>
+      <width>131</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Dr Fees:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AvailableSlotsLabel">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>140</y>
+      <width>131</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Available slots</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>140</y>
+      <width>218</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QRadioButton" name="radioButtonSat">
+       <property name="text">
+        <string>Saturday</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonSun">
+       <property name="text">
+        <string>Sunday</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonMon">
+       <property name="text">
+        <string>Monday</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButtonBooking">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>230</y>
+      <width>121</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Book Appointment</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AppointmentLabel">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>260</y>
+      <width>131</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Appointment</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RecieptLabel">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>340</y>
+      <width>211</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Reciept</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>390</y>
+      <width>241</width>
+      <height>106</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="PatientLabel">
+       <property name="text">
+        <string>Patient </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="AgeLabel">
+       <property name="text">
+        <string> Age </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="DrNameLabel">
+       <property name="text">
+        <string>Dr Name </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="AppointmentDayLabel">
+       <property name="text">
+        <string>Appointment day </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="FeesLabel">
+       <property name="text">
+        <string>Fees </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>663</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRegisteration">
+    <property name="title">
+     <string>Registeration</string>
+    </property>
+   </widget>
+   <addaction name="menuRegisteration"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
